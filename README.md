@@ -55,3 +55,10 @@ same time:
 - Vite + React + TypeScript
 - Tailwind CSS v4 (`@tailwindcss/vite`)
 - lucide-react for icons
+
+## Image credits
+
+- `src/assets/terry-blc.jpg` — UGA Business Learning Community, photo by Brian Powers.
+  Source: https://commons.wikimedia.org/wiki/File:UGA_BLC_20240426_017.jpg
+  License: CC0 1.0 (public domain dedication — no attribution required).
+  Cropped to the building band, converted to grayscale, and compressed for use as a hero texture.
