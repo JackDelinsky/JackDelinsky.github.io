@@ -25,7 +25,15 @@ Open the URL it prints (usually `http://localhost:5173`).
    `src/components/ProjectLog.tsx` is a placeholder block with the
    project's initials. Replace it with a screenshot or short clip per
    project once you have one — happy to help wire that in when you're ready.
-4. **Edit project/experience content.** Everything shown on the page lives
+4. **Optional: add a hero photograph.** Drop a landscape image named
+   `hero.jpg` into `public/` (2000px or wider) and it appears behind the
+   hero, desaturated and washed back into the paper palette so the type
+   stays readable. With no such file the hero renders exactly as it does
+   now — nothing breaks. Tuning lives in the `.hero-band` rules in
+   `src/index.css`: `opacity` for how present the photo is,
+   `background-position` for the crop. Use a photo you have the right to
+   publish — your own shot, or one licensed for reuse.
+5. **Edit project/experience content.** Everything shown on the page lives
    in one place: `src/content.ts`. Add, remove, or edit entries there — the
    page updates automatically.
 
