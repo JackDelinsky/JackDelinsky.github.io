@@ -9,20 +9,19 @@ export default function Contact() {
         </p>
 
         <div className="mt-10 flex flex-col gap-4 font-mono text-[15px]">
-          {/* TODO: replace with your real email, LinkedIn, and GitHub */}
           <a
-            href="mailto:you@example.com"
+            href="mailto:jackdelinsky@gmail.com"
             className="w-fit border-b border-paper/40 pb-0.5 transition-colors hover:border-gold hover:text-gold"
           >
-            you@example.com
+            jackdelinsky@gmail.com
           </a>
           <a
-            href="https://linkedin.com/in/your-handle"
+            href="https://www.linkedin.com/in/jack-delinsky-09746b228/"
             target="_blank"
             rel="noreferrer"
             className="w-fit border-b border-paper/40 pb-0.5 transition-colors hover:border-gold hover:text-gold"
           >
-            linkedin.com/in/your-handle
+            linkedin.com/in/jack-delinsky-09746b228
           </a>
           <a
             href="https://github.com/JackDelinsky"
